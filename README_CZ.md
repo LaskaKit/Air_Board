@@ -6,7 +6,9 @@ Kvalita vzduchu, který dýcháme, je velmi důležitá ale bohužel opomíjená
 Airboard samozřejmě nemusíš použít jenom se sensor.community. Můžeš jej využít s další populární službou [TMEP.cz](https://tmep.cz/). Nebo si můžeš posílat data na svůj server, kde ti třeba běží HomeAssistant nebo Grafana. 
 
 Plně jsme při vývoji respektovali nároky a požadavky sensor.community tak, aby deska LaskaKit AirBoard byla plně kompatibilní. Žádné překážky, jenom vylepšení oproti běžnému zapojení s NodeMCU. </br>
-A výsledek? Základem je plně podporovaný modul s ESP8266. K tomu lze snadno připojit I2C čidla (SDA - GPIO0, SCL - GPIO2) přes dva [uŠup konektory(co to je?)](https://blog.laskakit.cz/predstavujeme-univerzalni-konektor-pro-propojeni-modulu-a-cidel-%ce%bcsup/). Díky tomuto konektoru kompatibilním se SparkFun Qwiic a Adafruit STEMMA, můžeš připojit desítky nejrůznějších I2C čidel. A to rozhodně není všechno.
+A výsledek? Základem je plně podporovaný modul s ESP8266. K tomu lze snadno připojit I2C čidla (SDA - GPIO0, SCL - GPIO2) přes dva [uŠup konektory(co to je?)](https://blog.laskakit.cz/predstavujeme-univerzalni-konektor-pro-propojeni-modulu-a-cidel-%ce%bcsup/). Díky tomuto konektoru kompatibilním se SparkFun Qwiic a Adafruit STEMMA, můžeš připojit desítky nejrůznějších I2C čidel. 
+UART je připojen na piny RX (GPIO5), TX (GPIO4), ADC vstup z děliče napětí připojeného na akumulátor je připojen na jediný ADC vstup ESP8266.
+A to rozhodně není všechno.
 
 ![Airboard - pinout](https://github.com/LaskaKit/Air_Board/blob/main/img/Airboard_pinout.jpg)
 
