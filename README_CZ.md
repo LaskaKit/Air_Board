@@ -23,4 +23,6 @@ Ten je napájený z čipu TP4054 a na desce najdeš pájecí most, kterým si zv
 
 K programování budeš potřebovat náš programátor díky kterému AirBoard desku naprogramuješ https://www.laskakit.cz/laskakit-ch9102-programmer-usb-c--microusb--uart/
 
+## Tuto desku si můžeš objednat na https://www.laskakit.cz/laskakit-airboard-8266-deska-pro-mereni-kvality-vzduchu/
+
 ![Airboard - TOP](https://github.com/LaskaKit/Air_Board/blob/main/img/Air_Board_4.jpg)
