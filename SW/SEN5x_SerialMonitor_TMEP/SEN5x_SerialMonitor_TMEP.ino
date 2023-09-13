@@ -14,7 +14,7 @@
 #include <SensirionI2CSen5x.h>
 #include <Wire.h>
 
-unsigned int waitTime = 60000;
+unsigned int waitTime = 60000; // in ms
 
 /* -------------- SEN5x --------------- */
 SensirionI2CSen5x sen5x;
@@ -75,7 +75,7 @@ void setup()
     if (numberOfConnections > 10)
     {
         //if you want to use deep sleep, connect RST with GPIO16 (16) on header
-        //ESP.deepSleep(waitTime * 1000000, WAKE_RF_DEFAULT);
+        //ESP.deepSleep(waitTime/1000 * 1000000, WAKE_RF_DEFAULT);
         delay(waitTime);
         return;
     }
@@ -193,6 +193,6 @@ void loop()
   }
   /* -------------- END Wi-Fi ---------------- */
   //if you want to use deep sleep, connect RST with GPIO16 (16) on header
-  //ESP.deepSleep(waitTime * 1000000, WAKE_RF_DEFAULT);
+  //ESP.deepSleep(waitTime/10000 * 1000000, WAKE_RF_DEFAULT);
   delay(waitTime);
 }
