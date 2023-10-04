@@ -1,4 +1,4 @@
-![Airboard - TOP](https://github.com/LaskaKit/Air_Board/blob/main/img/Air_Board_1.jpg)
+![Airboard - TOP](https://github.com/LaskaKit/Air_Board/blob/main/img/LaskaKit-airboard-8266-2.jpg)
 
 # LaskaKit AirBoard ESP8266 
 
@@ -27,4 +27,4 @@ You will need our programmer to program the AirBoard https://www.laskakit.cz/las
 
 ## This board is available on https://www.laskakit.cz/laskakit-airboard-8266-deska-pro-mereni-kvality-vzduchu/
 
-![Airboard - TOP](https://github.com/LaskaKit/Air_Board/blob/main/img/Air_Board_4.jpg)
+![Airboard - TOP](https://github.com/LaskaKit/Air_Board/blob/main/img/LaskaKit-airboard-8266-3.jpg)

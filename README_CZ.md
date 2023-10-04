@@ -1,4 +1,4 @@
-![Airboard - TOP](https://github.com/LaskaKit/Air_Board/blob/main/img/Air_Board_1.jpg)
+![Airboard - TOP](https://github.com/LaskaKit/Air_Board/blob/main/img/LaskaKit-airboard-8266-2.jpg)
 
 # LaskaKit AirBoard ESP8266 
 Kvalita vzduchu, který dýcháme, je velmi důležitá ale bohužel opomíjená. Díky úzké spolupráci se [senzorvzduchu.cz](https://www.senzorvzduchu.cz/) jsme společně vyvinuli desku plně kompatibilní se https://sensor.community/cz/. To je jedna z největších služeb pro ukládání a vizualizaci dat z domácích a poloprofesionálních metestanice. 
@@ -25,4 +25,4 @@ K programování budeš potřebovat náš programátor díky kterému AirBoard d
 
 ## Tuto desku si můžeš objednat na https://www.laskakit.cz/laskakit-airboard-8266-deska-pro-mereni-kvality-vzduchu/
 
-![Airboard - TOP](https://github.com/LaskaKit/Air_Board/blob/main/img/Air_Board_4.jpg)
+![Airboard - TOP](https://github.com/LaskaKit/Air_Board/blob/main/img/LaskaKit-airboard-8266-3.jpg)
