@@ -23,7 +23,7 @@ If you're asking if you can connect a 5V powered sensor to the ESP8266, overwhel
 
 And what else can you find on the board? Three-pin connector for high-quality connection of temperature sensor DS18B20 (1-wire bus, contains 4k7 pull-up), connector for solar panel (we recommend 6V) and connector for connecting the accumulator.
 
-You will need our programmer to program the AirBoard https://www.laskakit.cz/laskakit-ch9102-programmer-usb-c--microusb--uart/
+You don't need a programmer. It is built-in on the board itself. Just plug in the USB-C cable to your laptop and upload your code. 
 
 ## This board is available on https://www.laskakit.cz/laskakit-airboard-8266-deska-pro-mereni-kvality-vzduchu/
 
