@@ -21,7 +21,7 @@ Pokud se ptáš, jestli můžeš 5V napájené čidlo připojit k ESP8266, tak v
 A co na desce ještě najdeš? Třípinový konektor pro kvalitní připojení čidla teploty DS18B20 (1-wire sběrnice, obsahuje 4k7 pull-up), konektor pro solární panel (ten doporučujeme 6V) a konektor pro připojení akumulátoru. </br>
 Ten je napájený z čipu TP4054 a na desce najdeš pájecí most, kterým si zvolíš nabíjecí proud - 260mA nebo 400mA.
 
-K programování budeš potřebovat náš programátor díky kterému AirBoard desku naprogramuješ https://www.laskakit.cz/laskakit-ch9102-programmer-usb-c--microusb--uart/
+K programování budeš nepotřebuješ programátor. Ten už je na desce a stačí tak jenom zapojit USB-C kabel do tvého počítače a nahrát program. 
 
 ## Tuto desku si můžeš objednat na https://www.laskakit.cz/laskakit-airboard-8266-deska-pro-mereni-kvality-vzduchu/
 
