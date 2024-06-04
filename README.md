@@ -19,6 +19,8 @@ You can also connect particulate sensors to the AirBoard very easily - there is 
 How and what to connect where we wrote in https://github.com/LaskaKit/Air_Board/blob/main/input/sensors.xlsx</br>
 Some sensors need a 5V power supply, usually because of the fan or laser. We also kept this in mind during the design - we added a step-up converter to the board. With this you can power sensors that also need 5V power.
 
+Fro version 1.2, it is now possible to choose whether the 5V output voltage for the connected sensors will be permanently on, or whether it can be switched on/off as needed using GPIO pin IO12.
+
 If you're asking if you can connect a 5V powered sensor to the ESP8266, overwhelmingly yes. The sensors are indeed 5V powered, but the output is 3.3V compatible (but always confirm this in the sensor datasheet).
 
 And what else can you find on the board? Three-pin connector for high-quality connection of temperature sensor DS18B20 (1-wire bus, contains 4k7 pull-up), connector for solar panel (we recommend 6V) and connector for connecting the accumulator.

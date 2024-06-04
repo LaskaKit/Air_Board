@@ -1,4 +1,9 @@
-### Version 1.1
+### Version 1.2
+- Přepojení ADC děliče přímo na VBAT
+- Přidána propojka ADC dělič <-> VBAT - ADC_BATT
+- Přidána možnost spínání pro 5V měnič - IO12
+- Změna rezistoru pro LED na 2k
+#### Version 1.1
 - Added CH9102
 #### Version 1.0
 - Opraven dělič napětí - 1M/294k

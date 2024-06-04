@@ -16,6 +16,8 @@ K AirBoard můžeš velmi jednoduše připojit i čidla pevných částic - na d
 Jak a co kam připojit jsme sepsali v https://github.com/LaskaKit/Air_Board/blob/main/input/sensors.xlsx</br>
 Některá čidla potřebují 5V napájení, většinou kvůli ventilátoru nebo laseru. I na toto jsme při návrhu mysleli - na desku jsme přidali step-up (zvyšující) měnič na 5V. Tím můžeš napájet čidla, která potřebují i 5V napájení.
 
+Od verze 1.2 je nově možnost zvolit zda bude výstupní napětí 5V pro připojená čidla trvale zapnuté, nebo ho lze podle potřeby zapínat/vypínat pomocí GPIO pinu IO12.
+
 Pokud se ptáš, jestli můžeš 5V napájené čidlo připojit k ESP8266, tak v drtivé většině ano. Čidla jsou totiž sice napájená 5V, ale výstup je 3.3V kompatibilní (tohle si ale raději vždy potvrď v katalogovém listu čidla).
 
 A co na desce ještě najdeš? Třípinový konektor pro kvalitní připojení čidla teploty DS18B20 (1-wire sběrnice, obsahuje 4k7 pull-up), konektor pro solární panel (ten doporučujeme 6V) a konektor pro připojení akumulátoru. </br>
