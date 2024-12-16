@@ -20,7 +20,7 @@ void setup() {
   while(!Serial) { }
   
   // Deep sleep mode for 30 seconds, the ESP8266 wakes up by itself when GPIO 16 is connected to the RESET pin
-  Serial.println("I'm awake, but I'm going into deep sleep mode for 5 seconds");
+  Serial.println("I'm awake, but I'm going into deep sleep mode for 30 seconds");
   // Turn off boost
   digitalWrite(BOOST_EN_PIN, LOW);
   ESP.deepSleep(30e6); 
